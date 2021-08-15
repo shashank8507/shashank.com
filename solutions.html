@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    
+</head>
+<body>
+    <div id="space">
+        <div id="body1">
+            <div id="data1">
+                <div id="image">
+                    <img height="200" src="image.jpg">
+                </div>
+
+                <div id="name">
+                    <h2> SHASHANK PATEL</h2>
+                </div>
+
+                <div id="description">
+                    <p>Web Developer, Software Engineer</p>
+                </div>
+
+                <div id="buttons">
+                    <button>Resume</button>
+                    <button> <a href="#form">Contact Me</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="body2">
+        <div id="mainbody">
+            <div id="topics">
+                <div id="topic1">
+                    <h2>About Me and Academic Honesty</h2>
+                    <p>I declare that my assessment is wholly my own work in accordance<br> with Seneca Academic
+                        Policy. No part of this assessment has been <br> copied manually or electronically from any other
+                        source <br> (including web sites) except for the information supplied by the <br> WEB222 instructors
+                        and / or made available in this assessment for <br> my use. I also declare that no part of this
+                        assignment has been <br> distributed to other students.
+                    </p>
+                    <div id="flexdate">
+                        <h2>Date: </h2>
+                        <p>Aug 14,2021</p>
+                    </div>
+                    
+                </div>
+                <div id="topic2">
+                    <h2>Basic information</h2>
+                    <div id="allign">
+                        <div id="keys">
+                            <p>AGE:</p>
+                            <p>EMAIL:</p>
+                            <p>LANGUAGE:</p>
+                            <p>CLASS SECTION:</p>
+                            <p>STUDENT ID:</p>
+                            <p>INSTRUCTOR:</p>
+                        </div>
+                        <div id="values">
+                            <p>20</p>
+                            <p>sbpatel44@myseneca.ca</p>
+                            <p>English</p>
+                            <p>ZBB</p>
+                            <p>144458205</p>
+                            <p>Nima Mahmoudi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="body3">
+        <div id="elements">
+            <span id="edu"><h2>Education</h2></span>
+            <div id="content">
+                <div id="c1">
+                    <div id="c11">
+                        <p>2018-2019</p>
+                        <h2>High School</h2>
+                    </div>
+                    <div id="c12">
+                        <h2>High School</h2>
+                        <p>Infocity Junior Science College</p>
+                        <div id="p1">
+                            <p> I have completed my Higher Secondary studies in the Science stream.</p>
+                            <span id="p12"><p>I  also score good in all the subjects .</p></span>
+                        </div>
+                    </div>
+                </div>
+                <div id="c2">
+                    <div id="c21">
+                        <p>2021-2023(expected)</p>
+                        <h2>Advanced Diploma</h2>
+                    </div>
+                    <div id="c22">
+                        <h2>Advanced Diploma</h2>
+                        <p>SENECA COLLEGE</p>
+                        <div id="p2">
+                            <p>I am studying computer programming and analysis (CPA) from SENECA College.</p>
+                            <span id="p22"><p>I am on the way to become a programmer as well as Web Developer.</p></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <a name="form"> </a>
+    <div id="body4">
+        <div id="forms">
+            <h2>
+                Contact Me Form
+            </h2>
+            <div id="border">
+                <fieldset style="width:400px">
+                    <div id="main">
+                        <div id="input">
+                            <form method="post" action="https://httpbin.org/post">
+                                <input size="42.999" type="text" id="fullname" autocomplete="on" spellcheck="false" tabindex="0" placeholder=" Full Name">
+                                <input size="42.999" type="email" id="email" autocomplete="on" spellcheck="false" tabindex="0" placeholder=" Email">
+                                <input size="42.999" type="text" id="address" autocomplete="off" spellcheck="false" tabindex="0" placeholder=" Address">
+                                <input size="42.999" type="text" id="city" autocomplete="on" spellcheck="false" tabindex="0" placeholder=" city" list="citys">
+                                <input size="42.999" type="text" id="postalcode" autocomplete="off" pattern="^(?!.*[DFIOQU])[A-VXY][0-9][A-Z] ?[0-9][A-Z][0-9]$" spellcheck="false" tabindex="0" placeholder=" Postal code">
+                                    <datalist id="citys">
+                                        <option value="Toronto"></option>
+                                        <option value="Quebec"></option>
+                                        <option value="Vancouver"></option>
+                                        <option value="Calgary"></option>
+                                        <option value="Ottawa"></option>
+                                        <option value="Saskatoon"></option>
+                                        <option value="Whitehorse"></option>
+                                    </datalist>
+                                <label id="underline">what this is about</label>
+                                <div id="radio">
+                                    <input type="radio" id="Question" value="Question">
+                                    <label >Question</label>
+                                    <input type="radio" id="Comment" value="Comment">
+                                    <label >Comment</label>
+                                    <input type="radio" id="Hiring" value="Hiring">
+                                    <label >Hiring</label>                                    
+                                </div>
+                                <textarea  rows="5" cols="50"></textarea>
+
+                                <p>Feedback</p>
+                                <textarea  rows="3" cols="50"></textarea>
+                                <h3>Rate us</h3>
+                                <span class="fa fa-star yes"></span>
+                                <span class="fa fa-star yes"></span>
+                                <span class="fa fa-star yes"></span>
+                                <span class="fa fa-star yes"></span>
+                                <span class="fa fa-star "></span><br><br><br>
+                                <button>submit</button>
+                              </form>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
